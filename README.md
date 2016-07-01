@@ -1,7 +1,7 @@
 # paper-notes
 Some notes of papers I have read
 
-Model-Free Episodic Control
+[Model-Free Episodic Control](http://arxiv.org/abs/1606.04460), C. Blundell et al., *arXiv*, 2016.
 
 Current RL algorithms:
 DQN and A3C are designed for more general of stochasticity.

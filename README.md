@@ -27,17 +27,17 @@ use KNN to generalise values across common experience.
 ##update:
 Q(s,a)=max(Q(s,a), R)
 
-![image2](Model-Free-Episodic-Control2.png =600x100)
+![image2](https://github.com/ShibiHe/paper-notes/blob/master/Model-Free-Episodic-Control2.png =600x100)
 
 ##estimate novel state:
 Q(s,a)=KNN from nearest k states, a is the same
 
 
-![image3](Model-Free-Episodic-Control3.png =600x100)
+![image3](https://github.com/ShibiHe/paper-notes/blob/master/Model-Free-Episodic-Control3.png =600x100)
 
 ##algorithm
 
-![image](./model-free-episodic-control1.png =600x350)
+![image](https://github.com/ShibiHe/paper-notes/blob/master/model-free-episodic-control1.png =600x350)
 
 Two phi functions:
 
@@ -70,9 +70,11 @@ The value function of a state can be computed as the inner product between the s
 # [Massively Parallel Methods for Deep Reinforcement Learning](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Publications_files/gorila.pdf), A. Nair et al., ICML Workshop, 2015.
 
 ###review of DQN
-![image1](./Massively Parallel Methods for Deep Reinforcement Learning1.png =500x400)
+![image1](https://github.com/ShibiHe/paper-notes/blob/master/Massively Parallel Methods for Deep Reinforcement Learning1.png =500x400)
 
-![image1](./Massively Parallel Methods for Deep Reinforcement Learning2.png =400x100)
+![image1](https://github.com/ShibiHe/paper-notes/blob/master/Massively Parallel Methods for Deep Reinforcement Learning2.png =400x100)
+
+![image1](https://github.com/ShibiHe/paper-notes/blob/master/Massively Parallel Methods for Deep Reinforcement Learning3.png =400x100)
 
 Two differences between Q-Learning and DQN
 
@@ -99,7 +101,7 @@ The Gorila architecture provides considerable flexibility in the number of ways 
 By  running  different  exploration policies in different threads, the overall changes be-ing made to the parameters by multiple actor-learners applying online updates in parallel are likely to be less correlated in time than a single agent applying online updates.Hence, we do not use a replay memory and rely on parallel actors employing different exploration policies to perform the stabilizing role undertaken by experience replay in theDQN training algorithm.
 
 ###Asynchronous one-step Q-learning
-![image1](Asynchronous Methods for Deep Reinforcement Learning1.png =500x600)
+![image1](https://github.com/ShibiHe/paper-notes/blob/master/Asynchronous Methods for Deep Reinforcement Learning1.png =500x600)
 
 1. accumulate gradients over multiple time steps just like mini batch
 2. fixed target Q network the same as DQN
